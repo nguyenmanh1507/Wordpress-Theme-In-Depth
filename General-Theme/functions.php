@@ -78,5 +78,8 @@ function generaltheme_scripts_styles() {
 	// load style.css
 	wp_enqueue_style( 'generaltheme', get_stylesheet_uri(), array(), null );
 
+	// load custom.js
+	wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom.js', array('jquery'), null, false );
+
 }
 add_action( 'wp_enqueue_scripts', 'generaltheme_scripts_styles' );
