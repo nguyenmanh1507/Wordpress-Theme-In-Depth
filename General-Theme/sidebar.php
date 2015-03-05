@@ -14,21 +14,23 @@
 					'container'        => false
 			) ); ?>
 		</div>
+
+		<?php endif; ?>
+	</div>
+
+	<div class="widget widget-search">
+		<h2><?php _e( 'Search', 'generaltheme' ); ?></h2>
+		<?php get_search_form(); ?>
+	</div>
+
+	<div class="widget widget-pages">
+		<h2><?php _e( 'Pages', 'generaltheme' ); ?></h2>
+		<ul>
+			<?php wp_list_pages( array (
+					'title_li'      => '',
+					'depth'         => 1
+			) ); ?>
+		</ul>
 	</div>
 
 <?php endif; ?>
-
-<div class="widget widget-search">
-	<h2><?php _e( 'Search', 'generaltheme' ); ?></h2>
-	<?php get_search_form(); ?>
-</div>
-
-<div class="widget widget-pages">
-	<h2><?php _e( 'Pages', 'generaltheme' ); ?></h2>
-	<ul>
-		<?php wp_list_pages( array (
-				'title_li'      => '',
-				'depth'         => 1
-		) ); ?>
-	</ul>
-</div>
