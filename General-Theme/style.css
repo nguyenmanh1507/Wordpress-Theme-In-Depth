@@ -9,3 +9,123 @@ Tags: two-columns, custom-background, custom-header, custom-menu, featured-image
 Text Domain: generaltheme
 */
 
+/* @general */
+
+html {}
+
+body {}
+
+.site-main {}
+
+.site-page {}
+
+/* @patterns */
+h1,
+h2,
+h3 {}
+
+p {}
+
+ul {}
+
+ol {}
+
+li {}
+
+input,
+label,
+textarea {}
+
+img {}
+
+a {}
+
+/* @header */
+
+.site-header {}
+
+.site-title {}
+
+.site-desc {}
+
+.nav-header ul {}
+
+.nav-header li {}
+
+.header-image img {}
+
+/* @post */
+
+.page-content {}
+
+.post {}
+
+.entry-header {}
+
+.entry-title {}
+
+.entry-format a {}
+
+.entry-meta {}
+
+.entry-meta li {}
+
+.entry-content {}
+
+.entry-footer {}
+
+/* @sidebar */
+
+.widget-area,
+.sidebar {}
+
+.widget {}
+
+.widget h2 {}
+
+.widget ul {}
+
+.nav-sidebar {}
+
+/* @footer */
+
+.site-footer {}
+
+.nav-footer ul {}
+
+.nav-footer li {}
+
+.site-info {}
+
+/* @archives */
+
+.page-header {}
+
+.page-header h1 {}
+
+.author-description {}
+
+.tax-description {}
+
+/* @nav */
+
+.nav {}
+
+.nav a {}
+
+.nav-post {}
+
+.nav-single {}
+
+/* @comments */
+
+.comments-area {}
+
+.comments-title {}
+
+.comments-list {}
+
+.nav-comments {}
+
+.comments-none {}
+
