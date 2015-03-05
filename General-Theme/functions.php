@@ -15,6 +15,9 @@ function generaltheme_setup() {
 	// enable custom backgrounds
 	add_theme_support( 'custom-background' );
 
+	// enable menus
+	add_theme_support( 'menus' );
+
 	// enable three nav menus
 	register_nav_menus( array (
 			'header'    => __( 'Header menu' ),
@@ -34,7 +37,7 @@ function generaltheme_setup() {
 		) );	
 
 }
-add_action( 'after_theme_setup', 'generaltheme_setup' );
+add_action( 'after_setup_theme', 'generaltheme_setup' );
 
 // enable widget
 function generaltheme_widgets_init() {
